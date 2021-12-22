@@ -12,6 +12,9 @@ SENTENCE_API = "https://v1.jinrishici.com/all"
 DEFAULT_SENTENCE = "赏花归去马如飞\r\n去马如飞酒力微\r\n酒力微醒时已暮\r\n醒时已暮赏花归\r\n"
 TIMEZONE = "Asia/Shanghai"
 
+def login(token): 
+    return Github(token)
+
 
 def get_one_sentence():
     try:
