@@ -1,7 +1,6 @@
 import argparse
 import requests
 import pendulum
-from main import login
 
 # 14 for test 12 real get up
 GET_UP_ISSUE_NUMBER = 12
