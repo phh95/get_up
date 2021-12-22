@@ -1,1 +1,3 @@
-requests 
+PyGithub
+requests
+pendulum
