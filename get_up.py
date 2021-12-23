@@ -1,6 +1,8 @@
 import argparse
 import requests
-import pendulum
+import pendulum  
+
+from github import Github    
 
 # 14 for test 12 real get up
 GET_UP_ISSUE_NUMBER = 1   
